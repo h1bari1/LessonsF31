@@ -9,3 +9,55 @@ ol,ul{
 a{
     text-decoration: none;
 }
+/* .wrap{
+    width: 100%;
+    background: rgba(97, 153, 109, 0.164);
+}
+
+.test{
+    width: 200px;
+    height: 200px;
+    background: #000;
+    margin: 20px;
+}
+.test1{
+    float: left;
+}
+.test2{
+    background: blue;
+    float: right;
+    margin-right: 150px;
+}
+.text{
+    width: 350px;
+    height: 250px;
+    background: rgb(12, 112, 107);
+}
+ */
+ .clear{
+    clear: both;
+} 
+nav{
+    background: rgba(51, 110, 177, 0.712);
+    padding: 10px;
+}
+.menu{
+    float: right;
+}
+.menu-item{
+    /* display: inline-block; */
+    float: left;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.menu-item a{
+   background:  rgba(177, 118, 51, 0.712);
+   padding: 15px 25px;
+   display: block;
+}
+.article img{
+    width: 400px;
+    float: left;
+    margin: 50px;
+    border-radius: 50%;
+}
