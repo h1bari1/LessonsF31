@@ -12,7 +12,7 @@ a{
 
 
 .block{
-    height: 700px;
+    height: 800px;
     /* background: rgba(255, 0, 0, .5); */
     /* background: #336699; */
     /* background: saddlebrown; */
@@ -20,17 +20,24 @@ a{
 
     /* background-image: url("../images/bg1.png"); */
 
-    background-image: url("../images/Decore.png");
+    /* background-image: url("../images/Decore.png"); */
     /* background-size: cover; */
-    background-size: contain;
+    /* background-size: contain; */
     /* background-size: 20%; */
     /* background-size: 700px; */
     /* background-size: 50%; */
+    /* background-size: 730px; */
 
 
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* background-repeat: repeat-x; */
     /* background-repeat: repeat-y; */
 
-    background-position: top right;
+    /* background-position: top right; */
+
+    background-position: 0 0;
+
+    background: url("../images/pers1.webp") no-repeat 80% center/350px,
+    url("../images/pers2.webp") no-repeat 10% center/350px,
+    linear-gradient(94deg, rgba(185,41,41,1) 0%, rgba(244,124,143,1) 45%, rgba(44,54,80,1) 100%);
 }
