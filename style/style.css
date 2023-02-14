@@ -9,7 +9,7 @@ ol,ul{
 a{
     text-decoration: none;
 }
-.list{
+/* .list{
     width: 150px;
     margin: 120px auto;
 }
@@ -83,7 +83,7 @@ a{
 
 .menu-item:hover::after{
     width: 100%;
-}
+} */
 
 /* .block{
     width: 200px;
@@ -94,4 +94,25 @@ a{
 .block:hover{
     background: red;
 } */
-
+.wrap img{
+    width: 100px;
+    margin: 0 15px;
+}
+/* .wrap img:first-child{
+    margin-left: 0;
+}
+.wrap img:last-child{
+    margin-right: 0;
+} */
+/* .wrap img:nth-child(odd){
+    width: 150px;
+} */
+/* .wrap img:nth-child(even){
+    width: 50px;
+} */
+/* .wrap img:nth-child(2n){
+    width: 150px;
+} */
+/* .wrap img:nth-child(3){
+    width: 150px;
+} */
