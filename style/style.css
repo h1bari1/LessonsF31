@@ -22,10 +22,10 @@ a{
 
     background-image: url("../images/Decore.png");
     /* background-size: cover; */
-    /* background-size: contain; */
+    background-size: contain;
     /* background-size: 20%; */
     /* background-size: 700px; */
-    background-size: 50%;
+    /* background-size: 50%; */
 
 
     background-repeat: no-repeat;
