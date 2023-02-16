@@ -9,3 +9,43 @@ ol,ul{
 a{
     text-decoration: none;
 }
+
+
+.wrap{
+    /* width: 50%; */
+    display: flex;
+    height: 500px;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between;
+    align-items: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+}
+
+
+
+.item{
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+.one{
+    background: green;
+}
+.two{
+    background: blue;
+}
+.three{
+    background: pink;
+}
+.four{
+    align-self: flex-start;
+}
