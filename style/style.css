@@ -103,3 +103,120 @@ a{
 .depth{
     margin-top: 83px;
 }
+.propositions{
+    padding: 138px 0 150px;
+}
+.prop-item{
+    width: 307px;
+    text-align: center;
+}
+.prop-item__name h3{
+    margin: 7px 0 20px;
+    font-size: 24px;
+    color: #19191B;
+    letter-spacing: -0.75px
+}
+.prop-item__description p{
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    color: #696871;
+    letter-spacing: -0.5
+}
+.prop-item__img img{
+    margin-left: 24px;
+}
+.product-plan{
+    padding-bottom: 158px;
+}
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 82px;
+}
+.product-header .heading h2{
+    font-size: 60px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    line-height: 70px;
+}
+.plan-button{
+    background: #F7F7FB;
+    border-radius: 10px;
+    padding: 5px;
+}
+.plan-button a{
+    padding: 17px 57px;
+    color: #19191B;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: -0.500211px;
+}
+.plan-button a:first-child{
+    border-radius: 10px 0 0 10px;
+}
+.plan-button a:last-child{
+    border-radius: 0 10px 10px 0;
+}
+.plan-button .active{
+    background: #5454D4;
+    color: #fff;
+}
+
+
+.plan-item{
+    width: 330px;
+    height: 441px;
+    padding: 34px 22px 27px;
+    background: #F8F8F8;
+    border-radius: 10px;
+    text-align: center;
+}
+.plan-name p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #696871;
+}
+.plan-price{
+    margin: 22px 0 28px;
+}
+.plan-price p{
+    color: #1D293F;
+    letter-spacing: -1.03448px;
+    font-weight: 700;
+    font-size: 60px;
+}
+.plan-description p:nth-child(2){
+    margin: 38px 0;
+}
+.plan-description p{
+    letter-spacing: -0.531474px;
+    color: #696871;
+    font-size: 17px;
+    font-family: 'Mulish', sans-serif;
+}
+.plan-description{
+    margin-bottom: 27px;    
+}
+.plan-item-button a{
+    color: #5454D4;
+    display: block;
+    background: #fff;
+    font-weight: 700;
+    font-size: 17px;
+}
+.active-plan{
+    width: 376px;
+    height: 473px;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.active-plan p,.active-plan a{
+    color: #fff;
+}
+.active-plan .plan-item-button a{
+    background: #9F3919;
+}
