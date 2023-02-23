@@ -1,0 +1,41 @@
+@media screen and (max-width: 1000px) {
+    
+
+
+}
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 0 20px;
+    }
+    .burger{
+        display: block;
+        z-index: 50;
+    }
+    .menu-item{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .menu{
+        position: fixed;
+        /* right: -100%; */
+        left: 0;
+        top: -100%;
+        background: lightseagreen;
+        width: 100vw;
+        /* height: 100vh; */
+        padding: 150px 50px 0;
+        /* top: 0; */
+    }
+    .menu.active{
+        /* right: 0; */
+        top: 0;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu{
+        width: 100vw;
+    }
+    .menu-item{
+        text-align: center;
+    }
+}

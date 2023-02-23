@@ -9,3 +9,69 @@ ol,ul{
 a{
     text-decoration: none;
 }
+body{
+    background: #369;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
+.menu{
+    transition: 1s ease-in-out;
+}
+.menu-item{
+    display: inline-block;
+    margin: 0 15px;
+}
+.menu-item a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+}
+.burger{
+    cursor: pointer;
+    display: none;
+    position: relative;
+    transition: .5s ease-in-out;
+    width: 35px;
+    height: 35px;
+}
+.burger-line{
+    width: 40px;
+    height: 3px;
+    background: #000;
+    margin: 5px;
+    transition: .5s ease-in-out;
+}
+.burger.active .burger-line{
+    position: absolute;
+    transition: .5s ease-in-out;
+}
+.burger.active .burger-line:nth-child(2){
+    opacity: 0;
+}
+.burger.active .burger-line:nth-child(1){
+    transform: rotate(45deg);
+}
+.burger.active .burger-line:nth-child(3){
+    transform: rotate(-45deg);
+}
+
+.hidden{
+    overflow: hidden;
+}
+.q{
+    width: 1420px;
+    height: 100px;
+    background: #000;
+}
