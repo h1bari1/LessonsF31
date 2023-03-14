@@ -9,3 +9,26 @@ ol,ul{
 a{
     text-decoration: none;
 }
+.first-block{
+    background: teal;
+}
+.second-block{
+    background: green;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #24A3FF;
+    border: none;
+    opacity: .2;
+}
+.carousel-indicators .active{
+    opacity: 1;
+}
+.carousel-control-next, .carousel-control-prev{
+    display: none;
+}
