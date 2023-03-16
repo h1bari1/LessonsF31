@@ -9,3 +9,49 @@ ol,ul{
 a{
     text-decoration: none;
 }
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+.carousel{
+    max-width: 700px;
+    position: relative;
+}
+.carousel img{
+    width: 100%;
+}
+.slick-arrow{
+    position: absolute;
+    top: 50%;
+    border: none;
+    cursor: pointer;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+.slick-prev{
+    left: -70px;
+    background: url('../images/left-arrow.png') no-repeat center;
+    background-size: contain;
+}
+.slick-next{
+    right: -70px;
+    background: url('../images/right-arrow.png') no-repeat center;
+    background-size: contain;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+}
+.slick-dots li{
+    margin: 0   5px;
+}
+.slick-dots li button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background: rgba(0,255,0,.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
