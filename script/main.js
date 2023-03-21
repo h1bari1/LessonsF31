@@ -1,7 +1,10 @@
-$('.carousel').slick({
-    dots: true,
-    infinite: true,
-    speed: 500,
-    fade: true,
-    cssEase: 'linear',
-  });
+// $('.carousel').slick({
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     fade: true,
+//     cssEase: 'linear',
+//   });
+Fancybox.bind("[data-fancybox]", {
+  
+});
