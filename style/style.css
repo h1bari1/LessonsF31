@@ -19,3 +19,100 @@ a{
 .main{
     font-size: 40px;
 }
+
+input{
+    display: none;
+}
+
+/* --------Custom checkbox-------- */
+
+/* .chek label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin: 10px;
+    border: 1px solid orangered;
+    position: relative;
+}
+#box:checked ~ label::before{
+    content: '';
+    background: url('../images/check.png') no-repeat center/cover;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+} */
+body{
+    background: gray;
+}
+.chek label{
+    display: block;
+
+    width: 70px;
+    height: 29px;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+    padding: 5px;
+    background: darkblue;
+}
+
+.chek label::before{
+    content: '';
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    display: block;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: 0.5s;
+}
+
+#box:checked ~ label::before{
+    left: 43px;
+    background-color: green;
+} 
+
+.btn{
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 15px 60px;
+    border-radius: 40px;
+    color: black;
+    border: none;
+    background: gray;
+    display: inline-block;
+    box-shadow: -1px -1px 3px white ,1px 1px 3px black;
+    /* transition: .1s; */
+}
+
+.btn:active{
+    box-shadow: inset -1px -1px 3px white ,inset 1px 1px 3px black;
+    font-size: 28px;
+}
+.input-block{
+    width: 100px;
+}
+.input-block input{
+    display: inline-block;
+    margin: 100px;
+    padding: 20px 50%;
+    border-radius: 60px;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    background: gray;
+    text-align: center;
+    box-shadow: inset 2px 2px 5px black, inset -2px -2px 5px white;
+}
+.input-block input::placeholder{
+    color: #000;
+}
+.input-block input:active{
+    border: none;
+}
